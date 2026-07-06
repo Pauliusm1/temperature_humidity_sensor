@@ -43,10 +43,10 @@ Or simply by pressing "Build" button on vs code.
 
 Most parts are unfinnished. Since I have minimal experience with RTOS, I decided to make my own scheduler.
 Unfinished parts:
-    - Sensor read failure.
-    - Data upload to the server part
-    - Full buffer handling.
-    - Buffer high-water mark. handling.
-    - Modem error simulation and handling.
-    - Logging module.
-    - CRA stuff.
+* Sensor read failure.
+* Data upload to the server part
+* Full buffer handling.
+* Buffer high-water mark. handling.
+* Modem error simulation and handling.
+* Logging module.
+* CRA stuff.
