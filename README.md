@@ -27,3 +27,26 @@ temperature_humidity_sensor/
 │       └── inc/
 └── CMakeLists.txt
 ```
+
+## Build
+
+Native (host):
+
+```powershell
+cmake -S . -B build
+cmake --build build
+```
+
+Or simply by pressing "Build" button on vs code.
+
+## Known limitations
+
+Most parts are unfinnished. Since I have minimal experience with RTOS, I decided to make my own scheduler.
+Unfinished parts:
+    - Sensor read failure.
+    - Data upload to the server part
+    - Full buffer handling.
+    - Buffer high-water mark. handling.
+    - Modem error simulation and handling.
+    - Logging module.
+    - CRA stuff.

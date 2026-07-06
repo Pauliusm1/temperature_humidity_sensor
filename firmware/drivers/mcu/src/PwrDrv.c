@@ -22,7 +22,7 @@ void PwrAddHaltMode(void)
 
 void PwrRemoveHaltMode(void)
 {
-    // Remove halt mode user from doubly linked list
+    // Remove halt mode user from doubly linked listk
 }
 
 void PwrManageSleep(void)
