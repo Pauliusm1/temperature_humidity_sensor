@@ -1,0 +1,6 @@
+#ifndef TEMPERATURE_AND_HUMIDITY_SENSOR_H
+#define TEMPERATURE_AND_HUMIDITY_SENSOR_H
+
+void TemperatureAndHumiditySensorInit(void);
+
+#endif /* TEMPERATURE_AND_HUMIDITY_SENSOR_H */
